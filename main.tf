@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = ""
   region = "us-east-1"
 }
-# This is so we can let terraform know which VPC we would like to work with
+
 data "aws_vpc" "dep4-vpc" {
   id = "vpc-0f20e6dacc9facc75"
 }
