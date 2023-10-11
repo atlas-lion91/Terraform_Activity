@@ -19,5 +19,5 @@ sudo apt-get install -y fontconfig openjdk-17-jre
 sudo apt-get install -y jenkins
 
 
-exit 0
+
 
